@@ -1,0 +1,28 @@
+{
+    "name": "darlonbraga/aula-mvc",
+    "description": "Aula de MVC com composer",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Darlonbraga\\AulaMvc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Darlon Braga"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+            "php": ">=7.2"
+    },
+    "autoload" : {
+        "psr-4": {
+            "app\\": "app/",
+            "core\\" : "core/"
+        },
+        "files": [
+            "config/config.php"
+        ]
+    }
+}
